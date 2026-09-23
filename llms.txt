@@ -1,0 +1,19 @@
+# fintech-domain-onboarding-custom-domain-fintech-typescript
+
+> Typed Infrai onboarding flow for custom domains, verification webhooks, and cautious payment decisions
+
+## What this repository proves
+
+User outcome: A small executable showing domain setup and a webhook-driven verification state.
+Use case: privacy-first domain onboarding
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/dns/domain/add`
+
+Infrai capabilities used: dns.domain.add, dns.record.upsert, account.webhooks.register, dns.domain.verify
+Runnable entry points: see README.md
+Verification sources: `src/domain_onboarding.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

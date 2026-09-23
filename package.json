@@ -1,0 +1,1 @@
+{"name":"fintech-domain-onboarding","private":true,"type":"module","scripts":{"typecheck":"tsc --noEmit","test":"node --experimental-strip-types src/domain_onboarding.test.ts","demo":"node --experimental-strip-types src/domain_onboarding.ts"},"dependencies":{"zod":"^3.23.0"},"devDependencies":{"typescript":"^5.6.0","@types/node":"^22.0.0"}}
